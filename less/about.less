@@ -1,13 +1,21 @@
+* {
+    text-decoration: none;
+}
+
 .nav-bar {
     background-color: @primary ;
     display: flex;
     justify-content: space-evenly;
-    height: 50px;
+    height: 40px;
+    padding-top: 10px;
 
     @media @phone {
         display: flex;
         flex-direction: column;
+        justify-content: space-evenly;
         text-align: center;
+
+
     }
 }
 
@@ -27,7 +35,7 @@
 
 img {
     padding: 10px;
-    border-radius: 80px;
+    border-radius: 100px;
     height: 50%;
     width: 50%;
 
@@ -35,14 +43,16 @@ img {
 
 .team-member {}
 
-// img {
-//     background-color: red;
-//     margin-left: auto;
-//     margin-right: auto;
-// }
+img {
+    background-color: @primary;
+    margin-left: auto;
+    margin-right: auto;
+}
 
 .a {
     color: red;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 15px;
 }
 
 img:hover {
@@ -54,15 +64,16 @@ img:hover {
 }
 
 h1 {
-    color: red;
+    color: purple;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
     align-items: center;
     padding: 20px;
     margin: 20px;
-    font-size: 5em;
-    font-family: raleway;
+    font-size: 3em;
+    font-family: Raleway;
+    font-style: normal;
 }
 
 h3 {
@@ -71,5 +82,7 @@ h3 {
     justify-content: center;
     flex-wrap: wrap;
     align-items: center;
+    font-style: 2em;
     padding: 15px;
+
 }
