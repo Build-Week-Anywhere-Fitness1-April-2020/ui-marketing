@@ -8,14 +8,12 @@
     justify-content: space-evenly;
     height: 40px;
     padding-top: 10px;
+    text-align: center;
 
     @media @phone {
         display: flex;
         flex-direction: column;
         justify-content: space-evenly;
-        text-align: center;
-
-
     }
 }
 
@@ -24,6 +22,7 @@
     justify-content: center;
     flex-wrap: wrap;
     align-items: center;
+    text-align: center;
 
 
     @media @phone {
@@ -48,6 +47,7 @@ img {
     padding: 10px;
     margin: 10px;
     font-family: Arial, Helvetica, sans-serif;
+    width: 50%;
 
 }
 
@@ -66,7 +66,7 @@ img:hover {
 }
 
 h1 {
-    color: purple;
+    color: @primary;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
@@ -87,4 +87,8 @@ h3 {
     font-style: 2em;
     padding: 15px;
 
+}
+
+h3:hover {
+    color: purple;
 }
