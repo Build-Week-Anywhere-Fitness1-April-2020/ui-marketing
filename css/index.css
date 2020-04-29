@@ -147,14 +147,11 @@ table {
   border-collapse: collapse;
   border-spacing: 0;
 }
-.body-container {
-  padding: 20px;
-  margin: 20px;
-}
 .nav-bar {
   background-color: #FF9233;
   display: flex;
   justify-content: space-evenly;
+  height: 50px;
 }
 @media only screen and (max-width:700px) {
   .nav-bar {
@@ -168,7 +165,19 @@ table {
   justify-content: center;
   flex-wrap: wrap;
   align-items: center;
-  background-color: blue;
+}
+@media only screen and (max-width:700px) {
+  .team {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+}
+img {
+  padding: 10px;
+  border-radius: 80px;
+  height: 50%;
+  width: 50%;
 }
 .a {
   color: red;
