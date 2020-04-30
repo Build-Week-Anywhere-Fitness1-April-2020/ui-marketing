@@ -98,8 +98,17 @@ h3 {
 	align-items: center;
 	font-style: 2em;
 	padding: 15px;
+	color: @primary;
+
+
+	@media @phone {
+		display: flex;
+		flex-direction: column;
+		text-align: center;
+		width: 100%;
+	}
 }
 
 h3:hover {
-	color: purple;
+	color: pruple;
 }
