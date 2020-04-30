@@ -1,5 +1,6 @@
 body {
-	background: url(https://github.com/Build-Week-Anywhere-Fitness1-April-2020/ui-marketing/blob/Anthony-Navarro/img/workout-1.jpg?raw=true) no-repeat center center fixed;
+	background: url(https://github.com/Build-Week-Anywhere-Fitness1-April-2020/ui-marketing/blob/Anthony-Navarro/img/workout-1.jpg?raw=true)
+		no-repeat center center fixed;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
@@ -13,11 +14,12 @@ body {
 .nav-bar {
 	display: flex;
 	background-color: @primary;
+	color: red;
 	justify-content: space-evenly;
 	height: 30px;
 	padding-top: 10px;
 	text-align: center;
-	opacity: 0.5;
+	//opacity: 0.5;
 
 	@media @phone {
 		display: flex;
@@ -36,6 +38,11 @@ body {
 	align-items: center;
 	text-align: center;
 	font-family: Arial, Helvetica, sans-serif;
+	font-size: 1em;
+	color: @primary;
+	font-weight: bold;
+	margin: 15px;
+	padding: 15px;
 
 	@media @phone {
 		display: flex;
@@ -46,21 +53,13 @@ body {
 }
 
 img {
-	padding: 10px;
-	border-radius: 100px;
-	height: 50%;
-	width: 50%;
-}
-
-.team-member {}
-
-img {
 	background-color: @secondary;
 	padding: 10px;
 	margin: 10px;
 	font-family: Arial, Helvetica, sans-serif;
 	width: 50%;
-
+	border-radius: 100px;
+	height: 50%;
 }
 
 // .a {
@@ -99,7 +98,6 @@ h3 {
 	font-style: 2em;
 	padding: 15px;
 	color: @primary;
-
 
 	@media @phone {
 		display: flex;
