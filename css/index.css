@@ -158,12 +158,13 @@ body {
   text-decoration: none;
 }
 .nav-bar {
-  background-color: #ff9233;
   display: flex;
+  background-color: #ff9233;
   justify-content: space-evenly;
   height: 30px;
   padding-top: 10px;
   text-align: center;
+  opacity: 0.5;
 }
 @media only screen and (max-width:700px) {
   .nav-bar {
@@ -172,6 +173,7 @@ body {
     justify-content: space-around;
     height: 300px;
     opacity: 0.5;
+    font-size: 3em;
   }
 }
 .team {
@@ -187,6 +189,7 @@ body {
     display: flex;
     flex-direction: column;
     text-align: center;
+    width: 100%;
   }
 }
 img {
