@@ -201,8 +201,7 @@ h1 {
 
 .dropdown-link {
     color: blue;
-    display: flex;
-    justify-content: space-evenly;
+
 }
 
 .dropdown-content {
