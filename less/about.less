@@ -1,52 +1,61 @@
+body {
+	background: url(https://github.com/Build-Week-Anywhere-Fitness1-April-2020/ui-marketing/blob/Anthony-Navarro/img/workout-1.jpg?raw=true) no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
 * {
-    text-decoration: none;
+	text-decoration: none;
 }
 
 .nav-bar {
-    background-color: @primary;
-    display: flex;
-    justify-content: space-evenly;
-    height: 40px;
-    padding-top: 10px;
-    text-align: center;
+	background-color: @primary;
+	display: flex;
+	justify-content: space-evenly;
+	height: 40px;
+	padding-top: 10px;
+	text-align: center;
 
-    @media @phone {
-        display: flex;
-        flex-direction: column;
-        justify-content: space-evenly;
-    }
+	@media @phone {
+		display: flex;
+		flex-direction: column;
+		justify-content: space-around;
+	}
 }
 
 .team {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    align-items: center;
-    text-align: center;
-    font-family: Arial, Helvetica, sans-serif;
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	align-items: center;
+	text-align: center;
+	font-family: Arial, Helvetica, sans-serif;
 
-    @media @phone {
-        display: flex;
-        flex-direction: column;
-        text-align: center;
-    }
+	@media @phone {
+		display: flex;
+		flex-direction: column;
+		text-align: center;
+	}
 }
 
 img {
-    padding: 10px;
-    border-radius: 100px;
-    height: 50%;
-    width: 50%;
+	padding: 10px;
+	border-radius: 100px;
+	height: 50%;
+	width: 50%;
 }
 
 .team-member {}
 
 img {
-    background-color: @secondary;
-    padding: 10px;
-    margin: 10px;
-    font-family: Arial, Helvetica, sans-serif;
-    width: 50%;
+	background-color: @secondary;
+	padding: 10px;
+	margin: 10px;
+	font-family: Arial, Helvetica, sans-serif;
+	width: 50%;
+
 }
 
 // .a {
@@ -56,36 +65,36 @@ img {
 // }
 
 img:hover {
-    filter: grayscale(100%);
-    //filter: invert(100%);
-    //filter: sepia(100%);
-    //filter: saturate(7);
-    //filter: hue-rotate(180deg);
+	filter: grayscale(100%);
+	//filter: invert(100%);
+	//filter: sepia(100%);
+	//filter: saturate(7);
+	//filter: hue-rotate(180deg);
 }
 
 h1 {
-    color: @primary;
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    align-items: center;
-    padding: 20px;
-    margin: 20px;
-    font-size: 3em;
-    font-family: Raleway;
-    font-style: normal;
+	color: @primary;
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	align-items: center;
+	padding: 20px;
+	margin: 20px;
+	font-size: 3em;
+	font-family: Raleway;
+	font-style: normal;
 }
 
 h3 {
-    color: @fontcolor;
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    align-items: center;
-    font-style: 2em;
-    padding: 15px;
+	color: @fontcolor;
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	align-items: center;
+	font-style: 2em;
+	padding: 15px;
 }
 
 h3:hover {
-    color: purple;
+	color: purple;
 }
